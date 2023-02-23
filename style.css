@@ -1,0 +1,70 @@
+/* ---global styles--- */
+:root {
+	--dark-red: #210606;
+	--light: wheat;
+	--curve: 0.5rem;
+	--thick: 0.3rem;
+	--dark-text: #16181b;
+	--shadow: 0 0 0.1em var(--dark-text), 0 0 0.1em var(--dark-text),
+		0 0 0.1em var(--dark-text), 0 0 0.1em var(--dark-text),
+		0 0 0.1em var(--dark-text), 0 0 0.1em var(--dark-text),
+		0 0 0.1em var(--dark-text), 0 0 0.1em var(--dark-text),
+		0 0 0.1em var(--dark-text), 0 0 0.1em var(--dark-text);
+}
+
+* {
+	/* box-sizing: border-box; => padding + border included in width & height */
+	box-sizing: border-box;
+	font-family: "comfortaa";
+	text-shadow: 0 0 0.5px black;
+}
+
+html {
+	/* Converts root from 16px to 10px */
+	font-size: 62.5%;
+}
+
+body {
+	/* 1rem = 10px => sets body default to 16px for legibility */
+	font-size: 1.6rem;
+	color: var(--light) !important;
+	background: #210606;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 8rem;
+}
+
+h2 {
+	font-size: 6rem;
+}
+
+h3 {
+	font-size: 2.5rem;
+}
+
+h4 {
+	font-size: 2rem;
+}
+
+p {
+	color: var(--dark);
+	font-size: 1.3rem;
+	color: var(--light);
+}

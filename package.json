@@ -1,0 +1,25 @@
+{
+	"name": "tsbc-11-03-07-mini-project-generate-html-portfolio",
+	"version": "1.0.0",
+	"description": "In this activity, you will build a command-line tool that generates an HTML portfolio page from user input.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mohseenHamid/tsbc-11-03-07-mini-project-mh.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mohseenHamid/tsbc-11-03-07-mini-project-mh/issues"
+	},
+	"homepage": "https://github.com/mohseenHamid/tsbc-11-03-07-mini-project-mh#readme",
+	"dependencies": {
+		"fs": "^0.0.1-security",
+		"inquirer": "^9.1.4"
+	}
+}
